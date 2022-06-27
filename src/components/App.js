@@ -1,4 +1,4 @@
-import '../styles/App.scss';
+import '../styles/Styles.scss';
 import React, { useState } from 'react';
 //import './styles.css';
 import FilmList from '../components/FilmList';

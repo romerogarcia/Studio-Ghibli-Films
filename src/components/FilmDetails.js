@@ -7,7 +7,7 @@ export default function FilmDetail({ film }) {
   };
 
   if (!film) {
-    return <div style={style}>Select a film</div>;
+    return <div style={style}>Select a film please!</div>;
   }
   return (
     <div className="details" style={style}>
@@ -16,6 +16,8 @@ export default function FilmDetail({ film }) {
         alt={film.movie_banner}
         title="Imagen de la película"
         src={film.movie_banner}
+        width="533"
+        height="330"
       />
       <h2 className="details__title">{film.title}</h2>
       <h3 className="details__subtitle">{film.original_title} </h3>
