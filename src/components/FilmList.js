@@ -11,7 +11,7 @@ export default function FilmList({ setter }) {
   }, []);
 
   return (
-    <div>
+    <div style={{ backgroundColor: '#A2B38B' }}>
       <ul className="list">
         {films &&
           films.map((film) => (

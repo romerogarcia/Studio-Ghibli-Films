@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FilmDetail({ film }) {
   const style = {
-    backgroundColor: '#ffccff',
+    backgroundColor: '#F4DFD0',
     padding: 10,
   };
 
