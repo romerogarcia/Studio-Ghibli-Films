@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 70px auto;
+    grid-template-columns: 40% auto;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+  
